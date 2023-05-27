@@ -7,11 +7,11 @@ public class Main {
         int bonus;
         if (replenishmentAmount > 1000) {
             bonus = replenishmentAmount / 100;
-                            } else {
+        } else {
             bonus = 0;
         }
         int total = amoutOnAccount + replenishmentAmount + bonus;
 
-        System.out.println("Сумма на счету: " +total);
+        System.out.println("Сумма на счету: " + total);
     }
 }
